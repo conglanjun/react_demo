@@ -133,3 +133,7 @@ function calculateWinner(squares) {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Game/>);
 // root.render(<ShoppingList name="Mark" />);
+
+const element = <h1>Hello, World!!!!</h1>
+const root1 = ReactDOM.createRoot(document.getElementById("root1"));
+root1.render(<h1>Hello, World!</h1>);
